@@ -4,6 +4,8 @@
  */
 package Logica;
 
+import GUI.Inicio;
+
 /**
  *
  * @author Fernando
@@ -12,7 +14,10 @@ public class Main {
     
     public static void main(String[] args) {
         
-        System.out.println("Test en branch dev");
+        //creando instancia de Inicio para llamar a la GUI principal
+        Inicio inicio = new Inicio();
+        inicio.setVisible(true);
+        inicio.setLocationRelativeTo(null);
         
     }
     
